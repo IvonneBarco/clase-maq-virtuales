@@ -1,0 +1,35 @@
+==========================================
+Estudiante: Ivonne Carolina Barco Enriquez
+Camada: 5
+==========================================
+==========================================
+==========================================
+
+
+=========================
+1. ¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?
+=========================
+
+Un lenguaje de programación puede ser utilizado solo en algunos sistemas operativos debido a razones de compatibilidad entre depenencias técnicas y/o librería externas, por arquitectura de procesador, etc.
+
+=========================
+2. ¿Qué tipo de máquina virtual soporta virtualBox?
+=========================
+
+- Máquinas Virtuales de 32 y 64 bits: Estas son máquinas virtuales que pueden ejecutar sistemas operativos y software diseñados para sistemas de 32 y 64 bits.
+
+- Máquinas Virtuales para Diferentes Sistemas Operativos: Se puede crear máquinas virtuales que ejecuten una variedad de sistemas operativos, incluyendo Windows, Linux, macOS y otros sistemas operativos compatibles.
+
+- Máquinas Virtuales para Desarrollo y Pruebas: VirtualBox es útil para desarrolladores y probadores que desean probar software en entornos virtuales antes de implementarlo en sistemas reales.
+
+=========================
+3. ¿Qué función cumple el hypervisor en la virtualización?
+=========================
+
+El hypervisor es una parte fundamental en la virtualización, ya que cumple la función esencial de crear y gestionar las máquinas virtuales (VMs) en un entorno de virtualización. Su función principal es la de actuar como un intermediario entre el hardware físico de un servidor o computadora y las máquinas virtuales que se ejecutan en él.
+
+=========================
+4. Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las demás? ¿por qué?
+=========================
+
+No, si una máquina virtual se rompe, esto realmente no afectará a las demás máquinas virtuales que se ejecutan en el mismo servidor, ya que cada máquina virtual se ejecuta como un entorno completamente aislado en el servidor físico, gracias al hypervisor o software de virtualización. Es decir que cada Maquina Virtual tiene su propio sistema operativo, recursos asignados y espacio de almacenamiento, y por lo tanto no tiene conocimiento de las demás máquinas virtuales existentes.
